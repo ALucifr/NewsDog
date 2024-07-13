@@ -12,8 +12,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "pd":"npm run build",
+    "d":"gh-pages -d build",
+    "s": "react-scripts start",
+    "b": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
